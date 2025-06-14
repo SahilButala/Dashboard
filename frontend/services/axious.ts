@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const url = "http://localhost:3000";
+// const url = "http://localhost:3000";
+const url = "https://dashboard-backend-6fh1.onrender.com"
 // const url = 'http://localhost:3000';
 
 const axiosInstance = axios.create({
