@@ -19,7 +19,7 @@ Db_Connection()
 app.use(cookieParser())
 app.use(express.json()) 
 app.use(cors({
-       origin : "http://localhost:5173",
+       origin : "https://dashboard-frontend-re9v.onrender.com",
        methods : ['GET','POST','DELETE','PUT'],
        allowedHeaders : [
         'Content-Type' , 
