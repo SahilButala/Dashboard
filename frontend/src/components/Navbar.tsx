@@ -1,6 +1,4 @@
 import { LogOut } from "lucide-react"
-import { Button } from "./ui/button"
-import { useNavigate } from "react-router-dom"
 import { useAppDispatch } from "@/hooks"
 import { reset } from "@/store/auth"
 
