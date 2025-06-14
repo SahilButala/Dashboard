@@ -12,7 +12,6 @@ function App() {
    const {user , isAuthenticated}  = useSelector((state : RootState)=>state.auth)
   return (
     <div>
-      <Navbar/>
          <Routes>
       {/* Protected Routes */}
       <Route
